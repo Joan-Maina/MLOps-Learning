@@ -1,0 +1,31 @@
+# MLflow tracking data
+mlruns/
+mlartifacts/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Docker
+*.log
+
+# If using MLflow model registry locally
+mlflow.db
+
+# VS Code settings (optional)
+.vscode/
+
+# Environment files containing secrets
+*.env
